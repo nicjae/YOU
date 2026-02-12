@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤️</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+    <source src="assets/audio/love.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Loading Screen -->
+<div id="loadingScreen">
+    <h1>Preparing something special for you... 💖</h1>
+</div>
+
+<!-- Main Content -->
+<div class="container hidden" id="mainContent">
+
+    <!-- Apology Section -->
+    <div id="apologySection">
+        <h1>Hey Pink Arizona❤️</h1>
+
+        <p>
+            Before anything else, I want to say I'm truly sorry.
+        </p>
+
+        <p>
+            I know I've hurt you and I take full responsibility for my actions.
+            You didn’t deserve that, and I regret it deeply.
+        </p>
+
+        <p>
+            I'm working on becoming a better man, not just for us, but because you matter to me.
+            I really appreciate you for even being here and taking the time to see this.
+        </p>
+
+        <button id="continueBtn">Continue 💌</button>
+    </div>
+
+    <!-- Valentine Question Section -->
+    <div id="valentineSection" class="hidden">
+        <h2>Will you be my Valentine?</h2>
+        <button class="yes">Yes 😍</button>
+        <button class="no">No 😢</button>
+    </div>
+
+    <!-- Final Message -->
+    <!-- Final Message -->
+<div id="finalMessage" class="hidden">
+    <h1>I Love You ❤️</h1>
+    <p>I don't ever wanna do this life without you.</p>
+    <p>Yeah, you’re right, the day isn’t here yet 😆</p>
+    <p>But I couldn’t wait!</p>
+    <p>So I made you a little early Valentine’s surprise 💖</p>
+    <p>Happy Valentine’s Day 💕</p>
+</div>
+
+    </div>
+
+    <!-- Chance Popup (if she clicks No) -->
+    <div id="chancePopup" class="hidden">
+        <p>I know I messed up,I will always love you❤️</p>
+        <button id="okBtn">Okay</button>
+    </div>
+
+</div>
+<!-- Hearts container -->
+<div id="hearts"></div>
+
+<!-- Confetti -->
+<canvas id="confetti"></canvas>
+
+<script src="js/script.js"></script>
+</body>
+</html>
